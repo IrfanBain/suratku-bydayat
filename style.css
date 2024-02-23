@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.togle{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    left: 15px;
+    top: 5px;
+    cursor: pointer;
+}
+.togle-r{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    left: 15px;
+    top: 5px;
+    cursor: pointer;
+}
+.togle span{
+    width: 30px;
+    background-color: white;
+    height: 5px;
+    border-radius: 10px;
+}
+.aside-res{
+    width: 70px;
+    overflow: hidden;
+    background-color: #7077A1;
+}
+.display-none{
+    display: none;
+}
+
+.aside{
+    width: 200px;
+    background-color: #7077A1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    position: relative;
+}
+.aside .profile{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.aside .profile .pro {
+    text-align: center;
+}
+.aside .profile .pro h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aside .profile .pro img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+.aside .surat {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.aside .surat a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border: solid 2px white;
+    border-radius: 8px;
+}
+.aside .surat a:hover{
+    background-color: white;
+    color: black;
+}
+
+main{
+    width: 100%;
+    background-color: #2D3250;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+main .navbar{
+    background-color: #424769;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+main .navbar .nav-left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+main .navbar .nav-right{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+main .navbar .nav-right a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+main .isi-surat{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+main .isi-surat .surat-masuk{
+    display: flex;
+    justify-content: center;
+}
+main .isi-surat .judul h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+main .isi-surat .surat-masuk .dftr-surat-masuk{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7077A1;
+    border-radius: 10px;
+    padding: 40px 20px;
+    gap: 10px;
+    position: relative;
+    width: fit-content;
+}
+main .isi-surat .surat-masuk .dftr-surat-masuk .box-surat-masuk{
+    background-color:#2D3250;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+main .isi-surat .surat-masuk .dftr-surat-masuk .box-surat-masuk .profile-atas{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+main .isi-surat .surat-masuk .dftr-surat-masuk .box-surat-masuk .profile-atas img{
+    border-radius: 50%;
+}
+main .isi-surat .surat-masuk .dftr-surat-masuk .box-surat-masuk .bawah{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+main .isi-surat .surat-masuk .dftr-surat-masuk .box-surat-masuk .bawah .name{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+main .isi-surat .surat-masuk .dftr-surat-masuk .lainnya{
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    background-color: #2D3250;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+main .isi-surat .surat-masuk .dftr-surat-masuk .lainnya a{
+    text-decoration: none;
+    color: white;
+}
+main .isi-surat .judul-bawah{
+    margin-top: 40px;
+}
