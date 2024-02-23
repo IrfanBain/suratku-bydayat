@@ -8,6 +8,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
 }
+.responsive{
+    display: none;
+}
 
 .togle{
     display: flex;
@@ -179,4 +182,16 @@ main .isi-surat .surat-masuk .dftr-surat-masuk .lainnya a{
 }
 main .isi-surat .judul-bawah{
     margin-top: 40px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .responsive{
+        padding: 300px 0;
+        display: flex;
+        margin: 0 auto;
+    }
+    .aside, main{
+        display: none;
+    }
 }
